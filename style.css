@@ -18,12 +18,43 @@ h1 {
 
 }
 
+.all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid blue;
+}
+
 .dog {
-    font-family: 'Open Sans'
+    background-color: red;
+    border: 5px solid black;
+    font-family: 'Open Sans';
+}
+
+.name {
+    margin: 4%;
+}
+
+img{
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+.bubbles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .traits {
-    font-family: 'Open Sans'
+    background-color: #89DEEF;
+    width: min-content;
+    padding: 1%;
+    font-size: x-small;
+    border-radius: 30px;
+    font-family: 'Open Sans';
+    margin: 1%;
 }
 
 footer {
