@@ -54,47 +54,41 @@ img {
 
 footer {
     display: flex;
-    flex-wrap: wrap;
-    height:200px;
+    height: 200px;
 }
 
-.bottom1 {
+.donate {
     display: flex;
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
     background:
-        linear-gradient(
-        rgba(166, 169, 240, 0.7),
-        rgba(166, 169, 240, 0.7)),
+        linear-gradient(rgba(166, 169, 240, 0.7),
+            rgba(166, 169, 240, 0.7)),
         url(starter_files/images/donate.jpeg);
-    background-size:cover;
+    background-size: cover;
 }
 
-.bottom2 {
+.volunteer {
     display: flex;
-    flex-wrap: wrap;
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
     background:
-        linear-gradient(
-        rgba(166, 169, 240, 0.7),
-        rgba(166, 169, 240, 0.7)),
+        linear-gradient(rgba(166, 169, 240, 0.7),
+            rgba(166, 169, 240, 0.7)),
         url(starter_files/images/volunteer.jpeg);
     background-size: cover;
 }
 
-.bottom3 {
+.location {
     display: flex;
-    flex-wrap: wrap;
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
     background:
-        linear-gradient(
-        rgba(166, 169, 240, 0.3),
-        rgba(166, 169, 240, 0.3)),
+        linear-gradient(rgba(166, 169, 240, 0.3),
+            rgba(166, 169, 240, 0.3)),
         url(starter_files/images/location.png);
     background-size: cover;
 }
@@ -105,5 +99,5 @@ footer {
     text-decoration: none;
     text-shadow: 3px black;
     font-weight: bold;
-    font-size:x-large;
+    font-size: x-large;
 }
