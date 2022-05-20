@@ -13,13 +13,12 @@ h1 {
     color: white
 }
 
-#main {
+body {
     font-family: 'Open Sans';
 }
 
 .all {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -48,21 +47,19 @@ img {
     background-color: #89DEEF;
     padding: 2%;
     font-size: x-small;
-    border-radius: 35%;
+    border-radius: 35px;
     font-family: 'Open Sans';
     margin: 1%;
 }
 
 footer {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     height:200px;
 }
 
 .bottom1 {
     display: flex;
-    flex-direction: row;
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
@@ -76,7 +73,6 @@ footer {
 
 .bottom2 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     flex: 1 1 auto;
     align-items: center;
@@ -91,7 +87,6 @@ footer {
 
 .bottom3 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     flex: 1 1 auto;
     align-items: center;
