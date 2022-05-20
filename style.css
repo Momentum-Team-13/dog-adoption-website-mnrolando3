@@ -54,7 +54,54 @@ img {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    height: 200px
+}
+
+.bottom1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-image:
+        url(starter_files/images/donate.jpeg);
+    background-size: cover;
+    border: 5px solid red;
+}
+
+.bottom2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url(starter_files/images/volunteer.jpeg);
+    background-size: cover;
+    border: 5px solid green;
+}
+
+.bottom3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url(starter_files/images/location.png);
+    background-size: cover;
+    opacity: 0.5;
+    border: 5px solid purple;
+}
+
+.link {
     font-family: 'Open Sans';
-    background-color: #A6A9F0;
-    color: white
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px black;
 }
